@@ -2,3 +2,5 @@ employee_id,employee_name,department,salary
 1,Alice,Engineering,100000
 2,Bob,Marketing,80000
 3,Charlie,Sales,90000
+4,Dindu,HR,50000
+5,Eve,HR,150000

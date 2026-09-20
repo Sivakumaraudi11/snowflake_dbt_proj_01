@@ -1,5 +1,5 @@
 -- This config tells dbt to build a physical table (instead of a view)
-{{ config(materialized='table') }}
+
 
 select
     employee_id,
