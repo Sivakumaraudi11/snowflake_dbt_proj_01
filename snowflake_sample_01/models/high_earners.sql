@@ -6,4 +6,4 @@ select
     employee_name,
     salary
 from {{ ref('employees') }} -- This references the table we made in Method 1
-where salary > 80000
+where salary > 90000
