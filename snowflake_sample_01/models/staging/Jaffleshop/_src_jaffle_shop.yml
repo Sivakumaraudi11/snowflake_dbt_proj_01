@@ -4,4 +4,11 @@ sources:
     schema: training_wh
     tables:
       - name: customers
+        
       - name: orders
+        
+
+      
+       
+      
+        
