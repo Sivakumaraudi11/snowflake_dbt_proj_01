@@ -1,0 +1,7 @@
+sources:
+  - name: stripe
+    database: debadatta_mohanty_db
+    schema: stripe
+    tables:
+      - name: payments
+

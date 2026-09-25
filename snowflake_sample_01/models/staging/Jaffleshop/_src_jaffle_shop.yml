@@ -1,14 +1,18 @@
+version: 2
+
 sources:
   - name: jaffleshop
     database: DEBADATTA_MOHANTY_DB
     schema: training_wh
     tables:
       - name: customers
-        
       - name: orders
-        
-
-      
-       
-      
-        
+        config:  
+          freshness:
+            warn_after:
+              count: 48
+              period: hour
+            error_after:
+              count: 3
+              period: day
+          loaded_at_field: loaded_at_field
